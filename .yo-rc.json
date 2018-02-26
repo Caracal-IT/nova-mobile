@@ -11,8 +11,8 @@
       ],
       "ui": "bootstrap",
       "auth": false,
-      "appName": "Saffire",
-      "projectName": "saffire",
+      "appName": "Nova Mobile",
+      "projectName": "nova-mobile",
       "packageManager": "npm"
     }
   }

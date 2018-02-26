@@ -1,4 +1,4 @@
-# Saffire
+# Nova Mobile
 
 This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
 version 3.2.1

@@ -1180,7 +1180,7 @@ var Route = /** @class */ (function () {
 /***/ "./src/app/core/shell/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<header>\n  <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" href=\"https://github.com/ngx-rocket\" translate>APP_NAME</a>\n    <button class=\"navbar-toggler\" type=\"button\" aria-controls=\"navbar-menu\"\n            aria-label=\"Toggle navigation\" (click)=\"toggleMenu()\" [attr.aria-expanded]=\"!menuHidden\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div id=\"navbar-menu\" class=\"collapse navbar-collapse float-xs-none\" [ngbCollapse]=\"menuHidden\">\n      <div class=\"navbar-nav\">\n        <a class=\"nav-item nav-link text-uppercase\" routerLink=\"/home\" routerLinkActive=\"active\">\n          <i class=\"fa fa-home\"></i>\n          <span translate>Home</span>\n        </a>\n        <a class=\"nav-item nav-link text-uppercase\" routerLink=\"/about\" routerLinkActive=\"active\">\n          <i class=\"fa fa-question-circle\"></i>\n          <span translate>About</span>\n        </a>\n\n        <a class=\"nav-item nav-link text-uppercase\" routerLink=\"/mobile\" routerLinkActive=\"active\">\n          <i class=\"fa fa-question-circle\"></i>\n          <span translate>Mobile</span>\n        </a>\n\n      </div>\n      <div class=\"navbar-nav ml-auto\">\n        <div class=\"nav-item\" ngbDropdown placement=\"bottom-right\">\n          <a id=\"language-dropdown\" class=\"nav-link\" ngbDropdownToggle>{{currentLanguage}}</a>\n          <div ngbDropdownMenu aria-labelledby=\"language-dropdown\">\n            <button class=\"dropdown-item\" *ngFor=\"let language of languages\" (click)=\"setLanguage(language)\">\n              {{language}}\n            </button>\n          </div>\n        </div>\n      </div>\n    </div>\n  </nav>\n</header>\n"
+module.exports = "<header>\n  <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" routerLink=\"/home\" translate>APP_NAME</a>\n    <button class=\"navbar-toggler\" type=\"button\" aria-controls=\"navbar-menu\"\n            aria-label=\"Toggle navigation\" (click)=\"toggleMenu()\" [attr.aria-expanded]=\"!menuHidden\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div id=\"navbar-menu\" class=\"collapse navbar-collapse float-xs-none\" [ngbCollapse]=\"menuHidden\">\n      <div class=\"navbar-nav\">\n        <a class=\"nav-item nav-link text-uppercase\" routerLink=\"/home\" routerLinkActive=\"active\">\n          <i class=\"fa fa-home\"></i>\n          <span translate>Home</span>\n        </a>\n        <a class=\"nav-item nav-link text-uppercase\" routerLink=\"/about\" routerLinkActive=\"active\">\n          <i class=\"fa fa-question-circle\"></i>\n          <span translate>About</span>\n        </a>\n\n        <a class=\"nav-item nav-link text-uppercase\" routerLink=\"/mobile\" routerLinkActive=\"active\">\n          <i class=\"fa fa-question-circle\"></i>\n          <span translate>Mobile</span>\n        </a>\n\n      </div>\n      <div class=\"navbar-nav ml-auto\">\n        <div class=\"nav-item\" ngbDropdown placement=\"bottom-right\">\n          <a id=\"language-dropdown\" class=\"nav-link\" ngbDropdownToggle>{{currentLanguage}}</a>\n          <div ngbDropdownMenu aria-labelledby=\"language-dropdown\">\n            <button class=\"dropdown-item\" *ngFor=\"let language of languages\" (click)=\"setLanguage(language)\">\n              {{language}}\n            </button>\n          </div>\n        </div>\n      </div>\n    </div>\n  </nav>\n</header>\n"
 
 /***/ }),
 
@@ -1743,7 +1743,6 @@ var MobileWorkflowProviderService = /** @class */ (function (_super) {
         var _this = this;
         return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["a" /* Observable */].create(function (observer) {
             var wf = JSON.parse(JSON.stringify(_this.workflow));
-            console.log(wf);
             observer.next(wf);
         });
     };
@@ -2007,14 +2006,14 @@ Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* pl
 /***/ "./src/translations/en-US.json":
 /***/ (function(module, exports) {
 
-module.exports = {"APP_NAME":"Saffire","About":"About","Hello world !":"Hello world !","Home":"Home","Version":"Version"}
+module.exports = {"APP_NAME":"Nova Mobile","About":"About","Hello world !":"Hello world !","Home":"Home","Version":"Version"}
 
 /***/ }),
 
 /***/ "./src/translations/fr-FR.json":
 /***/ (function(module, exports) {
 
-module.exports = {"APP_NAME":"Saffire","About":"A propos","Hello world !":"Bonjour le monde !","Home":"Accueil","Version":"Version"}
+module.exports = {"APP_NAME":"Nova Mobile","About":"A propos","Hello world !":"Bonjour le monde !","Home":"Accueil","Version":"Version"}
 
 /***/ }),
 

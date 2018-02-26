@@ -1,5 +1,5 @@
 {
-  "name": "saffire",
+  "name": "nova-mobile",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -101,7 +101,8 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-whitelist": {},
       "ionic-plugin-keyboard": {},
-      "cordova-plugin-ionic-webview": {}
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-dialogs": {}
     }
   }
 }

@@ -1,4 +1,4 @@
-# Saffire
+# Nova Mobile
 
 Welcome to the project documentation!
 
