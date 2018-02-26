@@ -1,0 +1,19 @@
+{
+  "generator-ngx-rocket": {
+    "version": "3.2.1",
+    "props": {
+      "target": [
+        "cordova"
+      ],
+      "mobile": [
+        "ios",
+        "android"
+      ],
+      "ui": "bootstrap",
+      "auth": false,
+      "appName": "Saffire",
+      "projectName": "saffire",
+      "packageManager": "npm"
+    }
+  }
+}
