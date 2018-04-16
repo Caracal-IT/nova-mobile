@@ -10,13 +10,13 @@
           "UIStatusBarStyle": [
             {
               "xml": "<string>UIStatusBarStyleLightContent</string>",
-              "count": 3
+              "count": 4
             }
           ],
           "UISupportedInterfaceOrientations~ipad": [
             {
               "xml": "<array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationPortraitUpsideDown</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>",
-              "count": 3
+              "count": 4
             }
           ]
         }
